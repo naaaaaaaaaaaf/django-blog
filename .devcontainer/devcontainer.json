@@ -9,11 +9,11 @@
 
 	// Set *default* container specific settings.json values on container create.
 	"settings": { 
-		"terminal.integrated.shell.linux": null
+		"terminal.integrated.shell.linux": "/bin/bash"
 	},
 
 	// Add the IDs of extensions you want installed when the container is created.
-	"extensions": []
+	"extensions": ["ms-azuretools.vscode-docker", "ms-python.python"]
 
 	// Use 'forwardPorts' to make a list of ports inside the container available locally.
 	// "forwardPorts": [],
