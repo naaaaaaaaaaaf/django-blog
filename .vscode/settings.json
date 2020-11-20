@@ -1,0 +1,14 @@
+{
+    "python.terminal.activateEnvInCurrentTerminal": true,
+    "python.venvPath": "{$workspaceFolder}/.venv",
+    "python.autoComplete.extraPaths": [
+        "{$workspaceFolder}/.venv/Lib/site-packages",
+    ],
+    "python.formatting.provider": "autopep8",
+    "python.jediEnabled": false,
+    "python.linting.flake8Enabled": true,
+    "python.linting.mypyEnabled": true,
+    "python.linting.pylintEnabled": false,
+    "editor.formatOnSave": true,
+    "python.autoComplete.addBrackets": true,
+}
